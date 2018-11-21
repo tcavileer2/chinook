@@ -1,0 +1,114 @@
+BLASTN 2.2.11 [blat]
+
+Reference:  Kent, WJ. (2002) BLAT - The BLAST-like alignment tool
+
+Query= gi|11127608|dbj|AB050835.1|
+         (553 letters)
+
+Database: 454AllContigs.fna 
+           3684208 sequences; 898,254,725 total letters
+
+Searching.done
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+contig1653446                                                         408   e-114
+contig2799534                                                         184   9e-47
+contig545880                                                          162   6e-40
+contig351654                                                          158   9e-39
+contig231002                                                          136   4e-32
+
+
+
+>contig1653446 
+          Length = 219
+
+ Score = 408 bits (1053), Expect = e-114
+ Identities = 215/221 (97%)
+ Strand = Plus / Plus
+
+Query: 247 cccagggggtgtgtaacttcaaggagtggtcctacgagaaggtctacctggaaggctgtc 306
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   cccagggggtgtgtaacttcaaggagtggtcctacgagaaggtctacctggaaggctgtc 60
+
+Query: 307 catccggggtcaaccccctcttcatacccgttgccaagagctgcgattgcatcaaatgca 366
+           ||||||||||| ||||| ||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  catccggggtcgaccccttcttcatacccgttgccaagagctgcgattgcatcaaatgca 120
+
+Query: 367 agacggacaacaccgactgtgatcgcataagcatggcaacacccagctgcatagtaaacc 426
+           ||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 agacggacaacaccgactgcgatcgcataagcatggcaacacccagctgcatagtaaacc 180
+
+Query: 427 cactagaaatgtaatactgtagagttaggctgttgcagcag 467
+           ||||||||||||||||| ||  |||||||||||||||||||
+Sbjct: 181 cactagaaatgtaatacagt--agttaggctgttgcagcag 219
+
+
+
+>contig2799534 
+          Length = 159
+
+ Score = 184 bits (476), Expect = 9e-47
+ Identities = 94/96 (98%)
+ Strand = Minus / Plus
+
+Query: 213 ccgttgtttcgcacaggccggcgcaggtggtgacggtgatgcttccgtgacagtcctctc 154
+           |||| |||||||||||||||||||||||||||| ||||||||||||||||||||||||||
+Sbjct: 64  ccgtcgtttcgcacaggccggcgcaggtggtgatggtgatgcttccgtgacagtcctctc 123
+
+Query: 153 tctccacggtgatggtcatgttgtttagtcggcagc 118
+           ||||||||||||||||||||||||||||||||||||
+Sbjct: 124 tctccacggtgatggtcatgttgtttagtcggcagc 159
+
+
+
+>contig545880 
+          Length = 347
+
+ Score = 162 bits (417), Expect = 6e-40
+ Identities = 85/89 (96%)
+ Strand = Minus / Plus
+
+Query: 553 actcaaagtagtgttttattgcaatagcacatcaacaatggaaacgataccatagaatag 494
+           |||||||||||||||||||||| ||||||||||||||||||||||| |||||||||||||
+Sbjct: 259 actcaaagtagtgttttattgcgatagcacatcaacaatggaaacggtaccatagaatag 318
+
+Query: 493 tcaaaccattgctaaacaaactgtggctg 465
+           ||||||  |||||||||||||||||||||
+Sbjct: 319 tcaaactgttgctaaacaaactgtggctg 347
+
+
+
+>contig351654 
+          Length = 404
+
+ Score = 158 bits (407), Expect = 9e-39
+ Identities = 90/100 (90%)
+ Strand = Minus / Plus
+
+Query: 315 ccccggatggacagccttccaggtagaccttctcgtaggaccactccttgaagttacaca 256
+           |||| ||||||||||||| ||||| |||   |||||||||||||||||||||||||||||
+Sbjct: 19  ccccagatggacagcctttcaggtcgac---ctcgtaggaccactccttgaagttacaca 75
+
+Query: 255 ccccctgggagcgcggcagccatgtgctctgatagttcag 216
+           ||||||||||||| ||||  ||| ||||||||||||||||
+Sbjct: 76  ccccctgggagcgtggcaaacatttgctctgatagttcag 115
+
+
+
+>contig231002 
+          Length = 463
+
+ Score = 136 bits (350), Expect = 4e-32
+ Identities = 70/72 (97%)
+ Strand = Minus / Plus
+
+Query: 72 ttgccatgacgaccagctgcagcatctttaagtgggtgcagtacataatgcttccacaag 13
+          ||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||
+Sbjct: 1  ttgccatgacgaccagctgcagcgtctttaagtgggtgcagtacataatgcttccacaag 60
+
+Query: 12 gagaacaggtcc 1
+          ||||| ||||||
+Sbjct: 61 gagaataggtcc 72
+
+  Database: 454AllContigs.fna

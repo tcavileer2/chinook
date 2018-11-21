@@ -1,0 +1,5 @@
+>contig1653446  length=219   numreads=8
+>contig2799534  length=159   numreads=8
+>contig545880  length=347   numreads=15
+>contig231002  length=463   numreads=70
+>contig351654  length=404   numreads=26

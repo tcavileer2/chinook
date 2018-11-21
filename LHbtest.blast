@@ -1,0 +1,46 @@
+BLASTN 2.2.11 [blat]
+
+Reference:  Kent, WJ. (2002) BLAT - The BLAST-like alignment tool
+
+Query= gi|71381587|gb|DQ025551.1|
+         (287 letters)
+
+Database: 454AllContigs.fna 
+           3684208 sequences; 898,254,725 total letters
+
+Searching.done
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+contig348840                                                          495   e-140
+
+
+
+>contig348840 
+          Length = 406
+
+ Score = 495 bits (1278), Expect = e-140
+ Identities = 254/258 (98%)
+ Strand = Plus / Plus
+
+Query: 1   ccaccgtgtaccagcatgtgtgcacctaccgggacgtccgctatgaaatgatccgcctac 60
+           |||| |||| ||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 1   ccactgtgtcccagcatgtgtgcacctaccgggacgtccgctatgaaatgatccgcctac 60
+
+Query: 61  ctgactgtcccccgtgggtggaccctcatgtcacctaccctgtggctctgagctgtgact 120
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 61  ctgactgtcccccgtgggtggaccctcatgtcacctaccctgtggctctgagctgtgact 120
+
+Query: 121 gcagcctctgtaacatggacacttctgactgtaccatcgagagcctgcagccagacttct 180
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 121 gcagcctctgtaacatggacacttctgactgtaccatcgagagcctgcagccagacttct 180
+
+Query: 181 gcattacccaaagagtactaacggatggtgacatgtggtgacatgtcagccaacatgcct 240
+           ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
+Sbjct: 181 gcattacccaaagagtactaacggatggtgacatgtggtgacatgtcagccaacatgcct 240
+
+Query: 241 gcctatgtggtgacatgt 258
+           ||||||||  ||||||||
+Sbjct: 241 gcctatgtaatgacatgt 258
+
+  Database: 454AllContigs.fna

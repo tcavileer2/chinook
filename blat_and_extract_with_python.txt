@@ -1,0 +1,51 @@
+Timothys-MacBook-Pro:chinookRAD tcavileer
+
+$ python blat_and_extract.py -d 454AllContigs.fna -q AB050835-OmykissFsh.fasta -o FSHtest-sequences.txt -s cFSH
+
+----------cFSH----------
+Loaded 898254725 letters in 3684208 sequences
+Searched 553 bases in 1 sequences
+('query =', 'gi|11127608|dbj|AB050835.1|', 'score =', '215', 'target =', 'contig1653446')
+
+$ cat FSHtest-sequences.txt
+>cFSH-contig1_:_gi|11127608|dbj|AB050835.1| gi|11127608|dbj|AB050835.1| Oncorhynchus mykiss FSH beta mRNA for follcle-stimulating hormone beta subunit, complete cds
+GGACCTGTTCTCCTTGTGGAAGCATTATGTACTGCACCCACTTAAAGATGCTGCAGCTGG
+TCGTCATGGCAACGCTGTGGGTGACACCAGTGAGGGCGGGGACAGACTGCAGGTATGGCT
+GCCGACTAAACAACATGACCATCACCGTGGAGAGAGAGGACTGTCACGGAAGCATCACCG
+TCACCACCTGCGCCGGCCTGTGCGAAACAACGGACCTGAACTATCAGAGCACATGGCTGC
+CGCGCTCCCAGGGGGTGTGTAACTTCAAGGAGTGGTCCTACGAGAAGGTCTACCTGGAAG
+GCTGTCCATCCGGGGTCAACCCCCTCTTCATACCCGTTGCCAAGAGCTGCGATTGCATCA
+AATGCAAGACGGACAACACCGACTGTGATCGCATAAGCATGGCAACACCCAGCTGCATAG
+TAAACCCACTAGAAATGTAATACTGTAGAGTTAGGCTGTTGCAGCAGCCACAGTTTGTTT
+AGCAATGGTTTGACTATTCTATGGTATCGTTTCCATTGTTGATGTGCTATTGCAATAAAA
+CACTACTTTGAGT
+
+
+
+#blat alone works
+$ blat -out=blast 454AllContigs.fna AB050835-OmykissFsh.fasta FSHtest.blast
+$ blat -out=blast 454AllContigs.fna DQ025551-OtLHb.fasta LHbtest.blast
+
+
+$ cat FSHtest.blast
+BLASTN 2.2.11 [blat]
+
+Reference:  Kent, WJ. (2002) BLAT - The BLAST-like alignment tool
+
+Query= gi|11127608|dbj|AB050835.1|
+         (553 letters)
+
+Database: 454AllContigs.fna 
+           3684208 sequences; 898,254,725 total letters
+
+Searching.done
+                                                                 Score    E
+Sequences producing significant alignments:                      (bits) Value
+
+contig1653446                                                         408   e-114
+contig2799534                                                         184   9e-47
+contig545880                                                          162   6e-40
+contig351654                                                          158   9e-39
+contig231002                                                          136   4e-32
+
+  
